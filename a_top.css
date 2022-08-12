@@ -1,0 +1,76 @@
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+<!--讓上方沒空隙 下面則是畫線-->
+
+body {
+  font-family: Montserrat, sans-serif;
+}
+
+
+.nav {
+  position: fixed;
+  width: 100vw;
+  box-shadow: 0 0 10px #e1e5ee;
+  z-index: 1;
+
+}
+.nav__list {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    gap: 2rem;
+    margin: 0 2rem;
+}
+.nav__listlogo img{
+    width:350px;
+    height:50px;
+    border-radius: 10px;
+}
+ .nav__listlogo {
+      list-style: none;
+      margin-right: auto;
+      cursor: pointer;
+}
+.nav__listitem {
+    list-style: none;
+    font-weight: bold;
+    position: relative;
+    left: -7%;
+    padding: 1.5rem 1rem;
+    cursor: pointer;
+    
+}
+
+.nav__listitem a{
+  text-decoration: none;
+  color: black;
+}
+.nav__listitem::after {
+  content: "";
+  width: 0;
+  height: 0.3rem;
+  border-radius: radius 0.2rem;
+  position: absolute;
+  left: 1rem;
+  bottom: 0.8rem;
+  background-color: #62caf0;
+  transition: width 200ms ease-in;
+}
+
+.nav__listitem:hover::after,
+.nav__listitem:focus::after {
+  width: 80%;
+}
+
+.nav__listitem:hover ul,
+.nav__listitem:focus ul {
+  opacity: 1;
+  visibility: visible;
+}
+
+
