@@ -15,7 +15,7 @@ body {
 .nav {
   position: fixed;
   width: 100vw;
-  box-shadow: 0 0 10px #e1e5ee;
+  box-shadow: 0 0 10px #5e9da0;
   z-index: 1;
 
 }
@@ -58,7 +58,7 @@ body {
   position: absolute;
   left: 1rem;
   bottom: 0.8rem;
-  background-color: #62caf0;
+  background-color: #33767a;
   transition: width 200ms ease-in;
 }
 
