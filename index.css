@@ -28,7 +28,6 @@ a{
   height: 100%;
   overflow: auto;
   box-sizing: border-box;
-  scrollbar-color: red green;
 }
 .box-form .left .overlay h1 {
   margin-top: 10%;
