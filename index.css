@@ -18,20 +18,19 @@ a{
 
 -----------------------------------------------------------
 .box-form .left {
-    width: 300px;
     background-size: cover;
     background-repeat: no-repeat;
     overflow: hidden;
 }
 .box-form .left .overlay {
   padding: 5%;
-  width: 50%;
+  width: 90%;
   height: 100%;
   overflow: hidden;
   box-sizing: border-box;
 }
 .box-form .left .overlay h1 {
-  margin-top: 15%;
+  margin-top: 10%;
  
 }
 
