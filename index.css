@@ -49,8 +49,7 @@ a{
 }
 
 
-.box-form .right h5 {
-  overflow: hidden;
+.box-form .right h5 { /*標題*/
     font-size: 300%;
     /*margin-bottom: 25px;*/
     margin-top: 18%;
