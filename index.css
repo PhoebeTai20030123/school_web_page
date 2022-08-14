@@ -26,12 +26,17 @@ a{
   padding: 5%;
   width: 90%;
   height: 100%;
-  overflow: hidden;
+  overflow: auto;
   box-sizing: border-box;
+  scrollbar-color: red green;
 }
 .box-form .left .overlay h1 {
   margin-top: 10%;
  
+}
+
+.box-form .left .overlay .accordion .collapseOne {
+  display: none;
 }
 
 ---------------------帳密---------------------------------
