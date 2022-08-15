@@ -5,10 +5,61 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>登入 |  教室借用系統</title>
     <link href="a_top.css" rel="stylesheet">
+    <link href="homepage.css" rel="stylesheet">
     <!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
          This makes it easier to make new pages for your site. -->
-    
+    <style>
+        .headpicture{
+            width: 270px;
+            height: 200px;
+            position:absolute;
+            margin-top: 85px;
+            margin-left: 30px;
+            background-color: #35c7bf;
+            border-radius: 40px;
+        }
+        .pict{
+            margin-top: 15px;
+            width: 240px;
+            height: 170px;
+            background-color: #f5f9f7;
+            border-radius: 40px;
+        }
+        .WordsUnder{
+            width: 230px;
+            position:absolute;
+            margin-top: 310px;
+            margin-left: 50px;
+            font-size: 25px;
+        }
+        .wds a{
+          text-decoration: none;
+        }
+        .midline{
+          width: 10px;
+          height: 680px;
+          background-color: #35c7bf;
+          margin-left: 300px;
+          top: -240px;
+          position: absolute;
+          z-index: 2;
+        }
+        .rightData{
+          position:absolute;
+          margin-left: 400px;
+          width: 1110px;
+          height: 500px;
+          margin-top: 80px;
+        }
+        .bigWords{
+          font-size: 45px;
+        }
+        .data b{
+          font-size: 20px;
+          margin-left: 200px;
+        }
+    </style>
   </head>
   <body style="background-color: white"> 
     <div class="nav">
@@ -28,7 +79,84 @@
           </li>
         </ul>
     </div>
-    
-    
+    <center>
+      <div class="headpicture">
+          <div class="pict">
+          </div>
+      </div>
+  </center>
+      <div class="WordsUnder">
+          <center>
+          <div class="wds">
+            <a>&emsp;我的預約&emsp;</a>
+            <br>
+            <br>
+          </div>
+          <hr>
+          <div class="wds">
+              <br>
+              <a href="homepage.html">&emsp;基本資訊&emsp;</a>
+          </div>
+          <br>
+          <hr>
+          <div class="wds">
+              <br>
+              <a href="https://www.nttu.edu.tw/">&emsp;台東大學首頁&emsp;</a>
+          </div>
+          <br>
+          <hr>
+          <div class="wds">
+              <br>
+              <a href="https://eclass2.nttu.edu.tw/">&emsp;網路學園3.0&emsp;</a>
+          </div>
+          <br>
+          <hr>
+          <div class="wds">
+              <br>
+              <a href="https://infosys.nttu.edu.tw/">&emsp;教務系統&emsp;</a>
+          </div>
+          <br>
+          <hr>
+      </center>
+      <div class="midline"></div>
+      </div>
+      <div class="rightData">
+          <div class="bigWords">
+            <a >基本資訊</a>
+          </div>
+          <hr>
+          <br>
+          <br>
+          <div class="data">
+              <b>&emsp;&emsp;姓名</b><br><br>
+              <b>個人網站</b><br><br>
+              <b>自我介紹</b><br><br>
+          </div>
+          <br>
+          <div class="personal-mybuluo-head">
+            <div class="personal-mybuluo-wording">帳號資訊</div>
+            <div class="personal-border jmu-border-1px border-bottom"></div>
+          </div>
+          <br>
+          <br>
+          <div class="data">
+            <b>&emsp;&emsp;帳號</b><br><br>
+            <b>&emsp;&emsp;單位</b><br><br>
+            <b>&emsp;&emsp;身份</b><br><br>
+            <b>&emsp;&emsp;學制</b><br><br>
+          </div>
+            <br>
+            <br>
+            <div class="personal-mybuluo-head">
+            <div class="personal-mybuluo-wording">聯絡資訊</div>
+            <div class="personal-border jmu-border-1px border-bottom"></div>
+          </div>
+          <br>
+          <br>
+          <div class="data">
+            <b>電子郵件</b><br><br>
+            <b>&emsp;&emsp;電話</b><br><br>
+          </div>
+        </div>  
   </body>
 </html>
