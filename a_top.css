@@ -36,6 +36,8 @@ body {
       margin-right: auto;
       cursor: pointer;
 }
+
+
 .nav__listitem {
     list-style: none;
     font-weight: bold;
@@ -45,7 +47,6 @@ body {
     cursor: pointer;
     
 }
-
 .nav__listitem a{
   text-decoration: none;
   color: black;
@@ -72,5 +73,93 @@ body {
   opacity: 1;
   visibility: visible;
 }
+.nav__listitemdrop {
+  position: absolute;
+  top: 3rem;
+  left: 2rem;
+  /*box-shadow: 0 0 10px #e1e5ee;*/
+  border-radius:radius 0.2rem;
+  width: 5rem;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 200ms ease-in-out;
+}
+.nav__listitemdrop li {
+  list-style: none;
+  padding: 0.5rem 0.7rem;
+  border-radius: radius 0.2rem;
+  box-shadow: 0 0 10px #e1e5ee;
+  margin-top: -1px;
+  font-size: 20px;
+  transition: background-color 200ms ease-in-out;
+  
+  background-color: #33767a;
+  position: relative;
+  overflow: hidden;   
+}
+.nav__listitemdrop a{
+text-decoration: none;
+color: rgb(0, 0, 0);
+}
+.nav__listitemdrop li a:hover,
+.nav__listitemdrop li a:focus {
+  color: #f06292;
+}
 
+-------------------控制斜斜------------------------------
+/* Odd stuff */
+.nav__listitemdrop > li:nth-child(odd){
+  transform: skewX(-25deg) translateX(0);
+}
 
+.nav__listitemdrop > li:nth-child(odd) > a {
+  transform: skewX(25deg);
+}
+
+.nav__listitemdrop > li:nth-child(odd)::after {
+  right: -50%;
+  transform: skewX(-25deg) rotate(3deg);
+}       
+
+/* Even stuff */
+.nav__listitemdrop > li:nth-child(even){
+  transform: skewX(25deg) translateX(0);
+}
+
+.nav__listitemdrop > li:nth-child(even) > a {
+  transform: skewX(-25deg);
+}
+
+.nav__listitemdropu > li:nth-child(even)::after {
+  left: -50%;
+  transform: skewX(25deg) rotate(3deg);
+}
+
+/* Show dropdown */
+.nav__listitemdrop,
+.nav__listitemdrop li {
+  opacity: 0;
+  visibility: hidden;     
+}
+
+.nav__listitemdrop li {
+  transition: .2s ease transform;
+}
+
+.nav__list > li:hover .nav__listitemdrop,
+.nav__list > li:hover .nav__listitemdrop li {
+  opacity: 1;
+  visibility: visible;
+}   
+
+.nav__list > li:hover .nav__listitemdrop li:nth-child(even){
+  transform: skewX(25deg) translateX(15px);     
+}
+
+.nav__list > li:hover .nav__listitemdrop li:nth-child(odd){
+  transform: skewX(-25deg) translateX(-15px);     
+}
