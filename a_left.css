@@ -1,0 +1,82 @@
+.headpicture{
+    width: 216px;
+    height: 160px;
+    position:fixed;
+    margin-top: 100px;
+    margin-left: 55px;
+    background-color: #35c7bf;
+    border-radius: 40px;
+}
+.pict{
+    margin-top: 15px;
+    width: 192px;
+    height: 136px;
+    background-color: #f5f9f7;
+    border-radius: 40px;
+}
+.WordsUnder{
+    width: 230px;
+    position:absolute;
+    margin-top: 313px;
+    margin-left: 60px;
+    font-size: 22px;
+}
+.WordUndersitem {
+    list-style: none;
+    font-weight: bold;
+    position: relative;
+    left: -7%;
+    padding: 1.5rem 1rem;
+    cursor: pointer;
+    
+}
+
+.WordUndersitem a{
+  text-decoration: none;
+  color: rgb(4, 42, 53);
+}
+.WordUndersitem::after {
+  content: "";
+  width: 0;
+  height: 0.3rem;
+  border-radius: radius 0.2rem;
+  position: absolute;
+  left: 4rem;
+  bottom: 0.8rem;
+  background-color: #33767a;
+  transition: width 200ms ease-in;
+}
+
+.WordUndersitem:hover::after,
+.WordUndersitem:focus::after {
+  width: 45%;
+}
+
+.WordUndersitem:hover ul,
+.WordUndersitem:focus ul {
+  opacity: 1;
+  visibility: visible;
+}
+.midline{
+  width: 10px;
+  height: 680px;
+  background-color: #35c7bf;
+  margin-left: 300px;
+  top: -240px;
+  position: fixed;
+  z-index: 2;
+}
+.rightData{
+  position:absolute;
+  margin-left: 400px;
+  width: 1110px;
+  height: 500px;
+  margin-top: 80px;
+}
+.bigWords{
+  font-size: 40px;
+}
+.data b{
+  font-size: 20px;
+  margin-left: 200px;
+}

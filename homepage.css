@@ -52,6 +52,21 @@
     -webkit-transform: scale(1);
     pointer-events: none;
 }
+.rightData{
+    position:absolute;
+    margin-left: 400px;
+    width: 1110px;
+    height: 500px;
+    margin-top: 80px;
+  }
+  .bigWords{
+    font-size: 40px;
+  }
+  .data b{
+    font-size: 20px;
+    margin-left: 200px;
+  }
+  
 .WordUndersitem {
     list-style: none;
     font-weight: bold;
