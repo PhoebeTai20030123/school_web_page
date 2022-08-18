@@ -61,7 +61,7 @@
   height: 680px;
   background-color: #35c7bf;
   margin-left: 300px;
-  top: -240px;
+  margin-top:-640px;
   position: fixed;
   z-index: 2;
 }
