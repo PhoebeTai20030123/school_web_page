@@ -34,6 +34,10 @@ svg {
     position:absolute ;
 }
 
+svg path {
+    fill: #33767a;
+}
+
 
 
 
