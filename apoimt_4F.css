@@ -1,12 +1,20 @@
-.svg_302 {
+.svg_402 {
     position:absolute; 
     top: 25.5%; 
-    left: 48.5%; 
-    width: 200px; 
+    left: 40.5%; 
+    width: 125px; 
     height: 50px; 
     background-color:rgb(255, 255, 255);
 }
-.svg_303 {
+.svg_403 {
+    position:absolute; 
+    top: 25.5%; 
+    left: 58.5%; 
+    width: 125px; 
+    height: 50px; 
+    background-color:rgb(255, 255, 255);
+}
+.svg_404 {
     position:absolute; 
     top: 18%; 
     left: 78.5%; 
@@ -14,7 +22,15 @@
     height: 100px; 
     background-color:rgb(255, 255, 255);
 }
-.svg_311 {
+.svg_419 {
+    position:absolute; 
+    top: 35%; 
+    left: 14%; 
+    width: 120px; 
+    height: 60px; 
+    background-color:rgb(255, 255, 255);
+}
+.svg_420 {
     position:absolute; 
     top: 51%; 
     left: 14%; 
