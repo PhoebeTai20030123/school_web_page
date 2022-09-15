@@ -67,7 +67,7 @@
         </div>
         <hr>
         <div class="WordUndersitem">
-            <a href="homepage.php">&emsp;基本資訊&emsp;</a>
+            <a href="information.php">&emsp;基本資訊&emsp;</a>
             <br>
         </div>
         <hr>
@@ -89,59 +89,77 @@
       </center>
       <div class="midline"></div>
     </div>
-
     <div class="rightData">
       <div class="bigWords">
-        <a >基本資訊</a>
+        <a >預約情形</a>
       </div>
       <hr>
       <br>
       <br>
-      <?php
+      <button class="tablink" onclick="openPage('_2F', this, '#35c7bf')">2F</button>
+      <button class="tablink" onclick="openPage('_3F', this, '#35c7bf')" id="defaultOpen">3F</button>
+      <button class="tablink" onclick="openPage('_4F', this, '#35c7bf')">4F</button>
+      <button class="tablink" onclick="openPage('_5F', this, '#35c7bf')">5F</button>
 
-      ?>
-      <div class="data">
-          <b>&emsp;&emsp;姓名&emsp;&emsp;<?php echo $name?></b><br><br>
-          <b>&emsp;&emsp;學號&emsp;&emsp;<?php echo $num?></b><br><br>
+      <div id="_2F" class="tabcontent">
+        <h1>2F</h1>
+        <table>
+          <tr>
+            <th>教室</th>
+            <th>剩餘</th>
+            <th>Points</th>
+          </tr>
+          <tr>
+            <td>教室放這裡</td>
+            <td>剩餘</td>
+            <td>50</td>
+          </tr>
+          <tr>
+            <td>Eve</td>
+            <td>Jackson</td>
+            <td>94</td>
+          </tr>
+          <tr>
+            <td>Adam</td>
+            <td>Johnson</td>
+            <td>67</td>
+          </tr>
+        </table>
       </div>
-      <br>
-      <div class="personal-mybuluo-head">
-        <div class="personal-mybuluo-wording">帳號資訊</div>
-        <div class="personal-border jmu-border-1px border-bottom"></div>
+
+      <div id="_3F" class="tabcontent">
+        <h1>3F</h1>
+        <p>Some news this fine day!</p> 
       </div>
-      <br>
-      <br>
-      <div class="data">
-        <b>&emsp;&emsp;帳號&emsp;&emsp;<?php echo $num?></b><br><br>
-        <b>&emsp;&emsp;單位&emsp;&emsp;<?php echo $dep?></b><br><br>
-        <b>&emsp;&emsp;身份&emsp;&emsp;<?php if($status==1){
-                  echo "學生"; 
-              }else{
-                echo "老師";
-              }
-              ?></b><br><br>
-        <b>&emsp;&emsp;學制&emsp;&emsp;<?php 
-              if($status==1){
-                  echo "學士班"; 
-              }else if($status==2){
-                echo "碩士班";
-              }else{
-                echo "教授";
-              }
-              ?></b><br><br>
+
+      <div id="_4F" class="tabcontent">
+        <h1>4F</h1>
+        <p>Get in touch, or swing by for a cup of coffee.</p>
       </div>
-      <br>
-      <br>
-      <div class="personal-mybuluo-head">
-        <div class="personal-mybuluo-wording">聯絡資訊</div>
-        <div class="personal-border jmu-border-1px border-bottom"></div>
+
+      <div id="_5F" class="tabcontent">
+        <h1>5F</h1>
+        <p>Who we are and what we do.</p>
       </div>
-      <br>
-      <br>
-      <div class="data">
-        <b>電子郵件&emsp;&emsp;<?php echo $mail?></b><br><br>
-        <b>&emsp;&emsp;電話&emsp;&emsp;<?php echo $phone?></b><br><br>
-      </div>
+
+      <script>
+      function openPage(pageName,elmnt,color) {
+        var i, tabcontent, tablinks;
+        tabcontent = document.getElementsByClassName("tabcontent");
+        for (i = 0; i < tabcontent.length; i++) {
+          tabcontent[i].style.display = "none";
+        }
+        tablinks = document.getElementsByClassName("tablink");
+        for (i = 0; i < tablinks.length; i++) {
+          tablinks[i].style.backgroundColor = "";
+        }
+        document.getElementById(pageName).style.display = "block";
+        elmnt.style.backgroundColor = color;
+      }
+
+      // Get the element with id="defaultOpen" and click on it
+      document.getElementById("defaultOpen").click();
+      </script>
     </div>  
   </body>
 </html>

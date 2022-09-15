@@ -60,7 +60,7 @@
         </div>
         <hr>
         <div class="WordUndersitem">
-            <a href="homepage.php">&emsp;基本資訊&emsp;</a>
+            <a href="information.php">&emsp;基本資訊&emsp;</a>
             <br>
         </div>
         <hr>

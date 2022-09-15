@@ -18,7 +18,6 @@
     <title>登入 |  教室借用系統</title>
     <link href="a_top.css" rel="stylesheet">
     <link href="a_left.css" rel="stylesheet">
-    <link href="homepage.css" rel="stylesheet">
     <!-- The style.css file allows you to change the look of your web pages.
     If you include the next line in all your web pages, they will all share the same look.
     This makes it easier to make new pages for your site. -->
@@ -64,7 +63,7 @@
             </div>
             <hr>
             <div class="WordUndersitem">
-                <a href="homepage.php">&emsp;基本資訊&emsp;</a>
+                <a href="information.php">&emsp;基本資訊&emsp;</a>
                 <br>
             </div>
             <hr>

@@ -16,7 +16,6 @@
 			if($row_login['account']===$Account&&$row_login['password']===$Password){#登入成功
 				$_SESSION['Web_Account']=$row_login['account'];//登入成功將資訊儲存到session中
 				$_SESSION['Web_Islogin']=1;
-				$_SESSION['Web_Status']=$row_login['status'];
 				$IsLogin=1;
 				echo"<script  language=\"JavaScript\">alert('登入成功');location.href=\"homepage.php\";</script>";
 
