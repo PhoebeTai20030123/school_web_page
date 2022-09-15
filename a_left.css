@@ -16,7 +16,7 @@
 }
 .WordsUnder{
     width: 230px;
-    position:absolute;
+    position:fixed;
     margin-top: 313px;
     margin-left: 60px;
     font-size: 22px;
@@ -58,7 +58,7 @@
 }
 .midline{
   width: 10px;
-  height: 680px;
+  height: 100%;
   background-color: #35c7bf;
   margin-left: 300px;
   margin-top:-640px;
@@ -71,6 +71,7 @@
   width: 1110px;
   height: 500px;
   margin-top: 80px;
+  z-index: 1;
 }
 .bigWords{
   font-size: 40px;

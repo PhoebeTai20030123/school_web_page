@@ -25,6 +25,7 @@
     
   </head>
   <body style="background-color: white"> 
+
     <div class="nav">
         <ul class="nav__list">
           <li class="nav__listlogo">
