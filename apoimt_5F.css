@@ -1,8 +1,214 @@
-.svg_506 {
-    position:absolute; 
-    top: 18%; 
-    left: 78.5%; 
-    width: 110px; 
-    height: 100px; 
-    background-color:rgb(255, 255, 255);
+
+
+.sec506{
+position: absolute;
+width:100px;
+height:157px;
+background-color: rgb(15, 111, 166);
+border-radius: 0px;
+margin-left: 853px;
+top: 137px;
+z-index: 2;
+opacity: 0.7;
+
+}
+.sec506:hover{
+background-color: black;
+}
+.sec507{
+    position: absolute;
+    width:65px;
+    height:65px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 665px;
+    top: 325px;
+    z-index: 2;
+    opacity: 0.7;
+    
+}
+.sec507:hover{
+    background-color: black;
+}
+.sec508{
+    position: absolute;
+    width:66px;
+    height:65px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 598px;
+    top: 325px;
+    z-index: 2;
+    opacity: 0.7;
+    
+}
+.sec508:hover{
+    background-color: black;
+}
+.sec509{
+    position: absolute;
+    width:65px;
+    height:65px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 530px;
+    top: 325px;
+    z-index: 2;
+    opacity: 0.7;
+    
+}
+.sec509:hover{
+    background-color: black;
+}
+
+.sec510{
+    position: absolute;
+    width:65px;
+    height:65px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 463px;
+    top: 325px;
+    z-index: 2;
+    opacity: 0.7;
+    
+}
+.sec510:hover{
+    background-color: black;
+}
+
+.sec511{
+    position: absolute;
+    width:65px;
+    height:65px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 395px;
+    top: 325px;
+    z-index: 2;
+    opacity: 0.7;
+    
+}
+.sec511:hover{
+    background-color: black;
+}
+.sec505{
+    position: absolute;
+    width:65px;
+    height:110px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 667px;
+    top: 140px;
+    z-index: 2;
+    opacity: 0.7;
+    
+}
+.sec505:hover{
+    background-color: black;
+}
+.sec504{
+    position: absolute;
+    width:65px;
+    height:110px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 599px;
+    top: 140px;
+    z-index: 2;
+    opacity: 0.7;
+    
+}
+.sec504:hover{
+    background-color: black;
+}
+.sec503{
+    position: absolute;
+    width:65px;
+    height:110px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 531px;
+    top: 140px;
+    z-index: 2;
+    opacity: 0.7;
+    
+}
+.sec503:hover{
+    background-color: black;
+}
+.sec502{
+    position: absolute;
+    width:65px;
+    height:110px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 463px;
+    top: 140px;
+    z-index: 2;
+    opacity: 0.7;
+    
+}
+.sec502:hover{
+    background-color: black;
+}
+.sec501{
+    position: absolute;
+    width:65px;
+    height:75px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 395px;
+    top: 175px;
+    z-index: 2;
+    opacity: 0.7;
+    
+}
+.sec501:hover{
+    background-color: black;
+}
+.secs1{
+    position: absolute;
+    width:35px;
+    height:35px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 253px;
+    top: 227px;
+    z-index: 2;
+    opacity: 0.7;
+    
+}
+.secs1:hover{
+    background-color: black;
+}
+.sec512{
+    position: absolute;
+    width:48px;
+    height:115px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 301px;
+    top: 325px;
+    z-index: 2;
+    opacity: 0.7;
+    
+}
+.sec512:hover{
+    background-color: black;
+}
+.sec513{
+    position: absolute;
+    width:48px;
+    height:115px;
+    background-color: rgb(255, 149, 0);
+    border-radius: 0px;
+    margin-left: 248px;
+    top: 325px;
+    z-index: 2;
+    opacity: 0.7;
+    
+}
+.sec513:hover{
+    background-color: black;
 }

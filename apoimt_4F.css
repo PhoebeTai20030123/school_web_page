@@ -1,40 +1,309 @@
-.svg_402 {
-    position:absolute; 
-    top: 25.5%; 
-    left: 40.5%; 
-    width: 125px; 
-    height: 50px; 
-    background-color:rgb(255, 255, 255);
+
+.sec401{
+    position: absolute;
+    width:67px;
+    height:74px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 394px;
+    top: 175px;
+    z-index: 2;
+    opacity: 0.7;
 }
-.svg_403 {
-    position:absolute; 
-    top: 25.5%; 
-    left: 58.5%; 
-    width: 125px; 
-    height: 50px; 
-    background-color:rgb(255, 255, 255);
+.sec401:hover{
+background-color: black;
 }
-.svg_404 {
-    position:absolute; 
-    top: 18%; 
-    left: 78.5%; 
-    width: 110px; 
-    height: 100px; 
-    background-color:rgb(255, 255, 255);
+.sec402{
+    position: absolute;
+    width:135px;
+    height:110px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 461px;
+    top: 138px;
+    z-index: 2;
+    opacity: 0.7;
 }
-.svg_419 {
-    position:absolute; 
-    top: 35%; 
-    left: 14%; 
-    width: 120px; 
-    height: 60px; 
-    background-color:rgb(255, 255, 255);
+.sec402:hover{
+background-color: black;
 }
-.svg_420 {
-    position:absolute; 
-    top: 51%; 
-    left: 14%; 
-    width: 120px; 
-    height: 120px; 
-    background-color:rgb(255, 255, 255);
+.sec403{
+    position: absolute;
+    width:138px;
+    height:110px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 597px;
+    top: 140px;
+    z-index: 2;
+    opacity: 0.7;
+}
+.sec403:hover{
+background-color: black;
+}
+.sec404{
+    position: absolute;
+    width:98px;
+    height:150px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 855px;
+    top: 100px;
+    z-index: 2;
+    opacity: 0.7;
+}
+.sec404:hover{
+background-color: black;
+}
+.sec405{
+    position: absolute;
+    width:33px;
+    height:68px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 922px;
+    top: 377px;
+    z-index: 2;
+    opacity: 0.7;
+    transform:rotate(30deg);
+    
+}
+.sec405:hover{
+    background-color: black;
+}
+.sec406{
+    position: absolute;
+    width:33px;
+    height:70px;
+    background-color: rgb(255, 149, 0);
+    border-radius: 0px;
+    margin-left: 894px;
+    top: 358px;
+    z-index: 2;
+    opacity: 0.7;
+    transform:rotate(30deg);
+    
+}
+.sec406:hover{
+    background-color: black;
+}
+.sec407{
+    position: absolute;
+    width:33px;
+    height:70px;
+    background-color: rgb(255, 149, 0);
+    border-radius: 0px;
+    margin-left: 866px;
+    top: 341px;
+    z-index: 2;
+    opacity: 0.7;
+    transform:rotate(30deg);
+    
+}
+.sec407:hover{
+    background-color: black;
+}
+.sec408{
+    position: absolute;
+    width:33px;
+    height:70px;
+    background-color: rgb(255, 149, 0);
+    border-radius: 0px;
+    margin-left: 836px;
+    top: 326px;
+    z-index: 2;
+    opacity: 0.7;
+    transform:rotate(30deg);
+    
+}
+.sec408:hover{
+    background-color: black;
+}
+.sec409{
+    position: absolute;
+    width:30px;
+    height:68px;
+    background-color: rgb(255, 149, 0);
+    border-radius: 0px;
+    margin-left: 701px;
+    top: 324px;
+    z-index: 2;
+    opacity: 0.7;
+    
+    
+}
+.sec409:hover{
+    background-color: black;
+}
+.sec410{
+    position: absolute;
+    width:30px;
+    height:68px;
+    background-color: rgb(255, 149, 0);
+    border-radius: 0px;
+    margin-left: 667px;
+    top: 324px;
+    z-index: 2;
+    opacity: 0.7;
+    
+    
+}
+.sec410:hover{
+    background-color: black;
+}
+.sec411{
+    position: absolute;
+    width:32px;
+    height:68px;
+    background-color: rgb(255, 149, 0);
+    border-radius: 0px;
+    margin-left: 632px;
+    top: 324px;
+    z-index: 2;
+    opacity: 0.7;
+    
+    
+}
+.sec411:hover{
+    background-color: black;
+}
+.sec412{
+    position: absolute;
+    width:32px;
+    height:68px;
+    background-color: rgb(255, 149, 0);
+    border-radius: 0px;
+    margin-left: 597px;
+    top: 324px;
+    z-index: 2;
+    opacity: 0.7;
+    
+    
+}
+.sec412:hover{
+    background-color: black;
+}
+.sec413{
+    position: absolute;
+    width:30px;
+    height:68px;
+    background-color: rgb(255, 149, 0);
+    border-radius: 0px;
+    margin-left: 564px;
+    top: 324px;
+    z-index: 2;
+    opacity: 0.7;
+    
+    
+}
+.sec413:hover{
+    background-color: black;
+}
+.sec414{
+    position: absolute;
+    width:32px;
+    height:68px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 530px;
+    top: 324px;
+    z-index: 2;
+    opacity: 0.7;
+    
+    
+}
+.sec414:hover{
+    background-color: black;
+}
+.sec415{
+    position: absolute;
+    width:32px;
+    height:68px;
+    background-color: rgb(255, 149, 0);
+    border-radius: 0px;
+    margin-left: 494px;
+    top: 324px;
+    z-index: 2;
+    opacity: 0.7;
+    
+    
+}
+.sec415:hover{
+    background-color: black;
+}
+.sec416{
+    position: absolute;
+    width:30px;
+    height:68px;
+    background-color: rgb(255, 149, 0);
+    border-radius: 0px;
+    margin-left: 462px;
+    top: 324px;
+    z-index: 2;
+    opacity: 0.7;
+    
+    
+}
+.sec416:hover{
+    background-color: black;
+}
+.sec417{
+    position: absolute;
+    width:30px;
+    height:68px;
+    background-color: rgb(255, 149, 0);
+    border-radius: 0px;
+    margin-left: 428px;
+    top: 324px;
+    z-index: 2;
+    opacity: 0.7;
+    
+    
+}
+.sec417:hover{
+    background-color: black;
+}
+.sec418{
+    position: absolute;
+    width:30px;
+    height:68px;
+    background-color: rgb(255, 149, 0);
+    border-radius: 0px;
+    margin-left: 395px;
+    top: 324px;
+    z-index: 2;
+    opacity: 0.7;
+    
+    
+}
+.sec418:hover{
+    background-color: black;
+}
+.sec419{
+    position: absolute;
+    width:100px;
+    height:68px;
+    background-color: rgb(15, 111, 166);
+    border-radius: 0px;
+    margin-left: 249px;
+    top: 324px;
+    z-index: 2;
+    opacity: 0.7;
+}
+.sec419:hover{
+    background-color: black;
+}
+.sec420{
+    position: absolute;
+    width:100px;
+    height:142px;
+    background-color: rgb(27, 131, 4);
+    border-radius: 0px;
+    margin-left: 249px;
+    top: 391px;
+    z-index: 2;
+    opacity: 0.7;
+}
+.sec420:hover{
+    background-color: black;
 }

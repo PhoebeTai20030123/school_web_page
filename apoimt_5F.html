@@ -6,7 +6,7 @@
     <title>登入 |  教室借用系統</title>
     <link href="a_top.css" rel="stylesheet">
     <link href="a_left.css" rel="stylesheet">
-    <link href="apoimt.css" rel="stylesheet">
+    <link href="myData.css" rel="stylesheet">
     <link href="apoimt_5F.css" rel="stylesheet">
     <!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
@@ -17,11 +17,11 @@
     <div class="nav">
         <ul class="nav__list">
           <li class="nav__listlogo">
-            <a href="homepage.html"><img src="school_logo.jpg" alt=""></a>
+            <a href="homepage.php"><img src="school_logo.jpg" alt=""></a>
           </li>
 
           <li class="nav__listitem">
-            <a href="homepage.html" style="text-decoration:none;"><font color="black">我的首頁</font></a>
+            <a href="homepage.php" style="text-decoration:none;"><font color="black">我的首頁</font></a>
           </li>
           <li class="nav__listitem">
             <font color="black">預約教室</font>
@@ -34,7 +34,7 @@
             </ul>
           </li>
           <li class="nav__listitem">
-            <a href="index.html" style="text-decoration:none;"><font color="black">sign out</font></a>
+            <a href="logout.php" style="text-decoration:none;"><font color="black">sign out</font></a>
           </li>
         </ul>
     </div>
@@ -47,12 +47,12 @@
     <div class="WordsUnder">
         <center>
         <div class="WordUndersitem">
-          <a href="myReservation.html">&emsp;我的預約&emsp;</a>
+          <a href="myReservation.php">&emsp;我的預約&emsp;</a>
           <br>
         </div>
         <hr>
         <div class="WordUndersitem">
-            <a href="homepage.html">&emsp;基本資訊&emsp;</a>
+            <a href="homepage.php">&emsp;基本資訊&emsp;</a>
             <br>
         </div>
         <hr>
@@ -74,65 +74,85 @@
       </center>
       <div class="midline"></div>
     </div>
-    
-    
-    <div class="classroom">
-      <div class="classroom_white">
-        <div class="svg_map">
-            <svg version="1.0" xmlns="http://www.w3.org/2000/svg"
-              width="787.000000pt" height="361.000000pt" viewBox="0 0 1200.000000 600.000000"
-              preserveAspectRatio="xMidYMid meet">
-              <g transform="translate(0.000000,618.000000) scale(0.100000,-0.100000)"
-                fill="#000000" stroke="none">
-                  <path d="M9315 5529 c-4 -11 -6 -125 -5 -252 1 -128 2 -240 1 -249 -1 -17
-                  -196 -18 -3898 -20 l-3898 -3 0 -1970 0 -1970 1250 0 1250 0 3 900 c1 494 6
-                  903 10 907 5 5 1195 9 2645 11 2338 2 2637 0 2638 -13 0 -8 0 -86 -1 -172 -1
-                  -99 3 -164 10 -177 l11 -21 927 2 927 3 0 1520 0 1520 -932 3 -932 2 -6 -21z
-                  m1828 -1504 c1 -811 -1 -1476 -5 -1478 -5 -1 -406 -1 -893 1 l-885 2 -2 187
-                  -3 187 -32 8 c-17 4 -1222 7 -2678 6 -2626 -3 -2647 -3 -2661 -23 -13 -17 -14
-                  -148 -14 -912 l1 -893 -1205 -3 c-663 -1 -1206 0 -1206 3 0 3 0 870 0 1928 l0
-                  1922 3880 0 c2681 0 3887 3 3900 10 19 10 20 23 20 270 0 163 4 260 10 262 5
-                  2 406 2 890 1 l880 -2 3 -1476z"/>
-
-                  <!--sec506框>
-                  <path d="M9464 5393 c-20 -4 -21 -10 -27 -305 -12 -518 -9 -1212 5 -1226 19
-                  -19 1511 -17 1527 2 14 16 11 1509 -2 1523 -9 8 -1463 14 -1503 6z m1466 -768
-                  l0 -725 -725 0 -725 0 0 725 0 725 725 0 725 0 0 -725z"/>
-                  
-                  <path d="M10228 4828 c-18 -15 -30 -108 -16 -132 5 -9 22 -16 37 -16 16 0 39
-                  -9 52 -19 22 -18 23 -21 9 -46 -13 -25 -18 -27 -63 -22 -47 4 -48 4 -45 -22 3
-                  -24 7 -26 56 -29 48 -3 55 0 82 30 58 63 29 129 -73 162 -12 4 -17 14 -15 28
-                  3 20 9 23 43 23 53 0 68 10 55 36 -8 15 -21 19 -58 19 -27 0 -55 -6 -64 -12z"/>
-                  <path d="M10468 4828 c-64 -23 -91 -154 -48 -237 21 -42 36 -51 82 -51 49 0
-                  78 39 85 115 12 135 -34 204 -119 173z m56 -54 c50 -50 19 -210 -36 -189 -42
-                  16 -52 163 -13 191 24 18 30 17 49 -2z"/>
-                  <path d="M10707 4830 c-40 -12 -64 -47 -77 -112 -20 -106 16 -178 91 -178 31
-                  0 43 6 68 37 40 49 39 74 -4 118 -36 35 -79 47 -88 23 -3 -10 -8 -10 -17 -2
-                  -9 9 -9 17 0 33 14 27 48 41 83 34 34 -7 49 23 22 43 -21 16 -37 16 -78 4z
-                  m50 -176 c8 -22 -5 -61 -23 -68 -25 -10 -64 20 -64 49 0 32 36 58 62 44 11 -6
-                  22 -17 25 -25z"/>
-                  <path d="M9648 4739 c-46 -34 -31 -85 30 -103 29 -9 47 -42 27 -49 -7 -3 -28
-                  -2 -45 3 -24 7 -32 6 -37 -6 -11 -30 5 -44 55 -44 39 0 53 5 71 24 32 34 22
-                  66 -29 95 -49 27 -47 45 3 49 38 3 42 8 31 36 -9 23 -73 20 -106 -5z"/>
-                  <path d="M9833 4734 c-30 -23 -33 -30 -33 -82 0 -76 30 -112 93 -112 51 0 72
-                  12 63 35 -5 14 -13 16 -42 10 -27 -5 -41 -2 -55 11 -35 32 -24 43 49 46 64 3
-                  67 4 70 29 2 19 -6 36 -28 58 -39 38 -73 40 -117 5z m86 -37 c15 -19 4 -27
-                  -35 -27 -39 0 -52 14 -27 29 25 14 49 13 62 -2z"/>
-                  <path d="M10041 4730 c-30 -31 -37 -58 -32 -118 4 -41 47 -72 102 -72 46 0 49
-                  2 49 25 0 22 -4 25 -38 25 -45 0 -72 24 -72 63 0 32 25 47 75 47 34 0 36 2 33
-                  28 -3 24 -8 27 -44 30 -35 3 -46 -2 -73 -28z"/-->
-              </g>
-            </svg>
-
-            <a href="#">
-              <div class="svg_506">
-                <div class="button-container">
-                  <button class="button button-5">sec506</button>
-                </div>
-              </div>
-            </a>
-        </div>
+    <div class="rightData">
+      <br>
+      <center>
+      <br>
+      <br>
+      <div class="circ" style="width: 1100px;;height: 600px;;border:10px #35c7bf solid; border-radius:30px;">
+          <img src="5stair.png" alt="" >
       </div>
-    </div>
+      </center>
+      <div class="sec506" style="cursor:pointer;" onclick="location.href='lend_room.php?classname=SEC506';">
+          <CENter>
+          <a  id="roomName">SEC506<br>多媒體實驗室</a>
+      </CENter>
+      </div>
+      <div class="sec507" style="cursor:pointer;" onclick="location.href='lend_room.php?classname=SEC507';">
+          <CENter>
+          <a  id="roomName">SEC507</a>
+      </CENter>
+      </div>
+      <div class="sec508" style="cursor:pointer;" onclick="location.href='lend_room.php?classname=SEC508';">
+          <CENter>
+          <a  id="roomName">SEC508</a>
+      </CENter>
+      </div>
+      <div class="sec509" style="cursor:pointer;" onclick="location.href='lend_room.php?classname=SEC509';">
+          <CENter>
+          <a  id="roomName">SEC509</a>
+      </CENter>
+      </div>
+      <div class="sec510" style="cursor:pointer;" onclick="location.href='lend_room.php?classname=SEC510';">
+          <CENter>
+          <a  id="roomName">SEC510</a>
+      </CENter>
+      </div>
+      <div class="sec511" style="cursor:pointer;" onclick="location.href='lend_room.php?classname=SEC511';">
+          <CENter>
+          <a  id="roomName">SEC511</a>
+      </CENter>
+      </div>
+      <div class="sec505" style="cursor:pointer;" onclick="location.href='lend_room.php?classname=SEC505';">
+          <CENter>
+          <a  id="roomName">SEC505</a>
+      </CENter>
+      </div>
+      <div class="sec504" style="cursor:pointer;" onclick="location.href='lend_room.php?classname=SEC504';">
+          <CENter>
+          <a  id="roomName">SEC504</a>
+      </CENter>
+      </div>
+      <div class="sec503" style="cursor:pointer;" onclick="location.href='lend_room.php?classname=SEC503';">
+          <CENter>
+          <a  id="roomName">SEC503</a>
+      </CENter>
+      </div>
+      <div class="sec502" style="cursor:pointer;" onclick="location.href='lend_room.php?classname=SEC502';">
+          <CENter>
+          <a  id="roomName">SEC502</a>
+      </CENter>
+      </div>
+      <div class="sec501" style="cursor:pointer;" onclick="location.href='lend_room.php?classname=SEC501';">
+          <CENter>
+          <a  id="roomName">SEC501</a>
+      </CENter>
+      </div>
+      <div class="secs1" style="cursor:pointer;" onclick="location.href='lend_room.php?classname=SEC';">
+          <CENter>
+          <a  id="roomName">S</a>
+      </CENter>
+      </div>
+      <div class="sec512" style="cursor:pointer;" onclick="location.href='lend_room.php?classname=SEC512';">
+          <CENter>
+          <a  id="roomName">SEC512</a>
+      </CENter>
+      </div>
+      <div class="sec513" style="cursor:pointer;" onclick="location.href='lend_room.php?classname=SEC513';">
+          <CENter>
+          <a  id="roomName">SEC513</a>
+      </CENter>
+      </div>
+  </div>
   </body>
 </html>

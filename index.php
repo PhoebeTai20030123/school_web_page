@@ -46,9 +46,7 @@
                     <tbody>
                       <tr>
                         <td>302</td>
-                        <td>1
-                          <!-- 這裡要去資料庫查詢數量 -->
-                        </td>
+                        <td>1</td>
                       </tr>
                       <tr>
                         <td>303</td>
@@ -132,26 +130,26 @@
           </div>
         </div>
       </div>
-
-      <div class="right" style="width:25%; height:100%">
-        <h5 style="color: #2BE23D;">Login</h5>
-        <div class="inputs">
-          <input type="text" placeholder="學生請以學號為帳號">
+      <form class="form" name="LoginSys" method="post" action="logincheck.php">
+							
+        <div class="right" style="width:100%; height:100%">
+          <h5 style="color: #2BE23D;">Login</h5>
+          <div class="inputs">
+          <input type="text" placeholder="學生請以學號為帳號" name="acc">
           <br>
-          <input type="password" placeholder="預設密碼為西元生日8碼">
+          <input type="password" placeholder="預設密碼為西元生日8碼" name="pwd">
         </div>
-        <br>
-
-        <div class="checkbox-container">
-          <input type="checkbox" id="cb"  >
-          <label for="cb">remember me.</label>
+          <br>
+          <div class="checkbox-container">
+            <input type="checkbox" id="cb"  >
+            <label for="cb">remember me.</label>
+          </div>
+          <br>
+          <h3 ><a href="forget.html"style="color:#d195b3">forget password?</a></h3>
+          <br>
+          <input type="submit" value="登入" name="LoginSys" id="submitButton" class="btn-light-bg" title="點此登入!" />
         </div>
-        <br>
-        <h3 ><a href="forget.html"style="color:#d195b3">forget password?</a></h3>
-        <br>
-
-        <button><a href="homepage.html" style="color:white">Login</a></button>
-      </div>
+      </form>
     </div>
   </body>
 </html>

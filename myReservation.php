@@ -1,3 +1,14 @@
+<?php
+	session_start();//開啟session
+  include_once("conn_mysql.php");
+  $num=$_SESSION['Web_Account'];
+	if(isset($_SESSION['Web_Islogin'])){
+    $find_id="SELECT * FROM `classroom` WHERE `lendaccount`='$num'";
+		$result=mysqli_query($db_link,$find_id) or die("查詢失敗");//查詢帳密
+		
+  }else
+		echo"<script  language=\"JavaScript\">alert('請先登入');location.href=\"index.php\";</script>";
+?>
 <!DOCTYPE html>
 <html>
   <head>
@@ -17,11 +28,11 @@
     <div class="nav">
         <ul class="nav__list">
           <li class="nav__listlogo">
-            <a href="homepage.html"><img src="school_logo.jpg" alt=""></a>
+            <a href="homepage.php"><img src="school_logo.jpg" alt=""></a>
           </li>
 
           <li class="nav__listitem">
-            <a href="homepage.html" style="text-decoration:none;"><font color="black">我的首頁</font></a>
+            <a href="homepage.php" style="text-decoration:none;"><font color="black">我的首頁</font></a>
           </li>
           <li class="nav__listitem">
             <font color="black">預約教室</font>
@@ -34,7 +45,7 @@
             </ul>
           </li>
           <li class="nav__listitem">
-            <a href="index.html" style="text-decoration:none;"><font color="black">登出</font></a>
+            <a href="logout.php" style="text-decoration:none;"><font color="black">登出</font></a>
           </li>
         </ul>
     </div>
@@ -47,7 +58,7 @@
         <div class="WordsUnder">
             <center>
             <div class="WordUndersitem">
-              <a href="myReservation.html">&emsp;我的預約&emsp;</a>
+              <a href="myReservation.php">&emsp;我的預約&emsp;</a>
               <br>
             </div>
             <hr>
@@ -91,24 +102,15 @@
                 </tr>
               </thead>
               <tbody>
-                <tr>
-                  <td>SEC302</td>
-                  <td>8/16</td>
-                  <td>8/17</td>
-                  <td><a class='button' href='#'>取消</a></td>
-                </tr>
-                <tr>
-                  <td>t</td>
-                  <td>t</td>
-                  <td>t</td>
-                  <td><a class='button' href='#'>取消</a></td>
-                </tr>
-                <tr>
-                  <td>t</td>
-                  <td>t</td>
-                  <td>t</td>
-                  <td><a class='button' href='#'>取消</a></td>
-                </tr>
+                <?php
+                while($row=mysqli_fetch_array($result)){
+                    echo "<tr>";
+                    echo "<td>".$classname=$row['classname'];
+                    echo "<td>".$begin=$row['begin'];
+                    echo "<td>".$end=$row['end'];
+                    echo "<td>"."<a href=lend_delete.php?classid=$row[classid]>取消</a>";
+                    }
+                ?>
               </tbody>
             </table>
           </main>
