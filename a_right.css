@@ -1,0 +1,28 @@
+.rightData{
+    position: absolute;
+    margin-left: 20%;
+    margin-top: -27%;
+    width: 75%;
+    height: 90%;
+    z-index: 1;
+}
+.rightData_topfix{
+    position: absolute;
+    margin-top: 100px;
+}
+.circ img{
+    width: 80%;
+    height: 70%;
+    margin-left: 10%;
+}
+.bigWords{
+    font-size: 40px;
+    font-weight: bold;
+  }
+.data b{
+    font-size: 20px;
+    margin-left: 200px;
+  }
+
+
+  

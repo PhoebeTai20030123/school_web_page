@@ -14,9 +14,11 @@ body {
 
 .nav {
   position: fixed;
+  margin-top: -8%;
   background-color: white;
+  background-repeat: no-repeat;
   width: 100vw;
-  box-shadow: 0 0 10px #5e9da0;
+  box-shadow: 0 0 10px #555;
   z-index: 5;
 
 }
@@ -93,7 +95,7 @@ body {
   list-style: none;
   padding: 0.5rem 0.7rem;
   border-radius: radius 0.2rem;
-  box-shadow: 0 0 10px #e1e5ee;
+  box-shadow: 0 0 5px #555;
   margin-top: -1px;
   font-size: 20px;
   transition: background-color 200ms ease-in-out;
@@ -108,7 +110,7 @@ color: rgb(0, 0, 0);
 }
 .nav__listitemdrop li a:hover,
 .nav__listitemdrop li a:focus {
-  color: #2BE23D;
+  color: #555;
 }
 
 -------------------控制斜斜------------------------------

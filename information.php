@@ -23,6 +23,7 @@
     <title>登入 |  教室借用系統</title>
     <link href="a_top.css" rel="stylesheet">
     <link href="a_left.css" rel="stylesheet">
+    <link href="a_right.css" rel="stylesheet">
     <link href="information.css" rel="stylesheet">
     <!-- The style.css file allows you to change the look of your web pages.
          If you include the next line in all your web pages, they will all share the same look.
